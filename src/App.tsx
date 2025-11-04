@@ -1,6 +1,8 @@
-import Header from './components/Cabecalho'
-import Hero from './components/Hero'
-import ListaVagas from './containers/ListaVagas'
+import Cabecalho from './components/Cabecalho/Cabecalho'
+import Hero from './components/Hero/Hero'
+import Formulario from './components/Formulario/Formulario'
+import ListaVagas from './components/ListaVagas/ListaVagas'
+
 
 import './global.css'
 
