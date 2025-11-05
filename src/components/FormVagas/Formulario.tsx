@@ -57,4 +57,3 @@ const Formulario = ({ aoPesquisar }: FormularioProps) => {
 }
 
 export default Formulario
-
