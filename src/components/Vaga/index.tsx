@@ -1,4 +1,4 @@
-import { VagaContainer, Titulo, Localizacao } from './styles'
+import { VagaContainer, Titulo, Localizacao, Botao } from './styles'
 
 export type VagaProps = {
   titulo: string
@@ -24,8 +24,12 @@ const Vaga = ({
       <Titulo>{titulo}</Titulo>
       <Localizacao>{localizacao}</Localizacao>
 
-      <p>{nivel} • {modalidade}</p>
-      <p>R$ {salarioMin} - R$ {salarioMax}</p>
+      <p>
+        {nivel} • {modalidade}
+      </p>
+      <p>
+        R$ {salarioMin} - R$ {salarioMax}
+      </p>
 
       <ul>
         {requisitos.map((req, index) => (
@@ -33,7 +37,7 @@ const Vaga = ({
         ))}
       </ul>
 
-      <button>Ver detalhes</button>
+      <Botao>Ver detalhes</Botao>
     </VagaContainer>
   )
 }

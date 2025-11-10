@@ -1,12 +1,16 @@
 import styled from 'styled-components'
 
-export const Header = styled.header`
-  background-color: #0a2668;
-  padding: 16px;
-  color: #fff;
+export const CabecalhoContainer = styled.header`
+  background-color: #fff;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #eee;
 
-  h1 {
-    font-size: 24px;
-    margin: 0;
+  img {
+    height: 60px;
+    width: auto;
+    display: block;
   }
 `

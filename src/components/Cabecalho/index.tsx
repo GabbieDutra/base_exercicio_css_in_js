@@ -1,9 +1,12 @@
-import { Header } from './styles'
+import logo from '../../assets/logo.png'
+import { CabecalhoContainer } from './styles'
 
-const Cabecalho = () => (
-  <Header>
-    <h1>EBAC Jobs</h1>
-  </Header>
-)
+const Cabecalho = () => {
+  return (
+    <CabecalhoContainer>
+      <img src={logo} alt="Logo da empresa" />
+    </CabecalhoContainer>
+  )
+}
 
 export default Cabecalho

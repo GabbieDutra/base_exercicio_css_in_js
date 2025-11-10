@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 
-export const Lista = styled.ul`
-  margin-top: 32px;
-  padding: 0;
-  list-style: none;
+export const Lista = styled.div`
+  max-width: 960px;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 `

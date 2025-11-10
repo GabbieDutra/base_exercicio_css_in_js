@@ -1,10 +1,12 @@
-import { HeroSection } from './styles'
+import { HeroContainer, Titulo, Subtitulo } from './styles'
 
-const Hero = () => (
-  <HeroSection>
-    <h2>As melhores vagas para tecnologia</h2>
-    <p>Encontre a vaga dos seus sonhos</p>
-  </HeroSection>
-)
+const Hero = () => {
+  return (
+    <HeroContainer>
+      <Titulo>As melhores vagas para tecnologia, design e artes</Titulo>
+      <Subtitulo>Encontre a oportunidade perfeita para você.</Subtitulo>
+    </HeroContainer>
+  )
+}
 
 export default Hero
